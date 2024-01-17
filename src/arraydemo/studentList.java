@@ -10,7 +10,7 @@ package arraydemo;
  */
 public class studentList {
     public static void main(String[] args){
-        Student s1 = new Student(1,"Ronak");
+        Student s1 = new Student(1,"Ronak" ,"jiya");
         Student[] studentList = new Student[3];
         
         studentList[0] = s1;
