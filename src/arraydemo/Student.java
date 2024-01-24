@@ -8,7 +8,11 @@ package arraydemo;
 public class Student {
     private int sId;
     private String sname;
-
+   private String Address;
+   
+   public String getAddress(){
+       return Address;
+   }
     public Student(int sId, String sname) {
         this.sId = sId;
         this.sname = sname;
